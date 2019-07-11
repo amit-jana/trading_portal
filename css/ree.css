@@ -1,0 +1,393 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .mt-c {
+            margin: 5rem 0;
+        }
+        
+        .bottom {
+            border-bottom: 3px solid #eeeeee;
+        }
+        
+        .logo img {
+            width: 114px;
+            height: 116px;
+        }
+        
+        .search input {
+            margin-top: 40px;
+        }
+        
+        .search button {
+            margin-top: 40px;
+            background-color: #b5296a;
+            color: #fff;
+            padding: 0px 25px;
+        }
+        
+        .search button:hover {
+            color: #b5296a;
+            background-color: #fff;
+        }
+        
+        .dropdown-menu a {
+            color: #b5296a;
+            background-color: #fff;
+            text-transform: uppercase;
+            padding: 10px;
+            line-height: 2rem;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        .topleft img {
+            width: 9rem;
+            height: 5rem;
+            margin: 1.5rem 0 0 2rem;
+        }
+        
+        .navbar {
+            background-color: #d61962;
+            margin-top: 20px;
+            ;
+        }
+        
+        .navbar ul li a {
+            text-align: center;
+            margin-right: 2rem;
+            text-transform: uppercase;
+            color: white !important;
+        }
+        
+        .graph img {
+            width: 27rem;
+            height: 26rem;
+            border: 1px solid #eeeeee;
+        }
+        
+        .graph1 img {
+            width: 40rem;
+            height: 26rem;
+        }
+        
+        .trade h2 {
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-top: 4rem;
+        }
+        
+        .trade h4 {
+            font-weight: bold;
+            font-size: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .block {
+            width: 28rem;
+            height: 20rem;
+            margin: 2rem 0 4rem 0;
+            background-color: #eeeeee;
+        }
+        
+        .block input {
+            margin: 2rem;
+            width: 24rem !important;
+        }
+        
+        .block button {
+            margin-left: 2rem;
+            padding: .5rem 2.5rem !important;
+            background-color: #b5296a !important;
+            color: #fff;
+            border: none !important;
+        }
+        
+        .google {
+            width: 10rem;
+            height: 2.5rem;
+            margin-left: 1rem;
+        }
+        
+        .announce h2 {
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-top: 4rem;
+            margin-left: 3rem;
+        }
+        
+        .announce h4 {
+            font-weight: bold;
+            font-size: 1rem;
+            margin: 2rem 0;
+            margin-left: 3rem;
+        }
+        
+        .announcement {
+            width: 26rem;
+            height: 20rem;
+            border: .2rem solid #eeeeee;
+            margin-left: 3rem;
+        }
+        
+        .dot img {
+            width: 2rem;
+            height: 1.5rem;
+            margin-left: 2.5rem;
+        }
+        
+        .head h5 {
+            font-weight: bold;
+        }
+        
+        .productblock {
+            border: .2rem solid #eeeeee;
+        }
+        
+        .product h2 {
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-top: 4rem;
+        }
+        
+        .product h4 {
+            font-weight: bold;
+            font-size: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .productblock {
+            width: 28rem;
+            height: 20rem;
+            margin: 2rem 0 4rem 0;
+        }
+        
+        .productlist {
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        
+        .newsblock {
+            border: .2rem solid #eeeeee;
+            margin-left: 3rem;
+        }
+        
+        .news h2 {
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-top: 4rem;
+            margin-left: 3rem;
+        }
+        
+        .news h4 {
+            font-weight: bold;
+            font-size: 1rem;
+            margin: 2rem 0;
+            margin-left: 3rem;
+        }
+        
+        .productlist p {
+            text-align: justify;
+        }
+        
+        .badge-info {
+            background-color: #b5296a !important;
+            color: #fff !important;
+            padding: .5rem 1rem;
+        }
+        
+        .productlist a {
+            color: #b5296a;
+            text-decoration: underline;
+            margin-left: 11rem;
+        }
+        
+        #collapse {
+            display: none;
+        }
+        
+        .Investor {
+            border: .5rem solid #eeeeee;
+        }
+        
+        .Investor button {
+            background-color: #b5296a;
+            color: #fff;
+            border: none;
+            font-weight: bold;
+            letter-spacing: .1rem;
+            margin-left: 8rem;
+            padding: .5rem 1.5rem;
+            font-size: 1.5rem;
+        }
+        
+        .Investor button:hover {
+            color: #d61962;
+            background-color: #fff;
+        }
+        
+        .Investor h4 {
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-left: 10rem;
+            margin-bottom: ;
+        }
+        
+        .benefit h4 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        .benefit p {
+            text-align: center;
+        }
+        
+        .benefit span {
+            font-weight: bold;
+        }
+        
+        footer {
+            background-color: #091019;
+        }
+        
+        .footertop {
+            border-bottom: 3px solid #b8b8b8;
+        }
+        
+        .footerlogo img {
+            width: 5rem;
+            height: 5rem;
+        }
+        
+        .footerlogo h6 {
+            color: #6d6e6f;
+            font-size: .9rem;
+            margin: .5rem 0;
+        }
+        
+        .quick h3 {
+            color: #fff;
+        }
+        
+        .quick a {
+            color: #6d6e6f;
+            font-size: 1rem;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .support h3 {
+            color: #fff;
+        }
+        
+        .support a {
+            color: #6d6e6f;
+            font-size: 1rem;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .footerbottom h6 {
+            color: #6d6e6f;
+        }
+        
+        .about h4 {
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+        
+        .about p {
+            font-size: 1.1rem;
+        }
+        
+        .aboutimage img {
+            width: 30rem;
+            height: 19rem;
+        }
+        
+        .para {
+            font-size: 1.1rem;
+        }
+        
+        .tradinglink {
+            text-align: center;
+        }
+        
+        .tradinglink button {
+            color: #fff !important;
+            background-color: #b21d62;
+            padding: .5rem 3rem;
+        }
+        
+        .tradinglink button:hover {
+            background-color: #fff;
+            color: #c91c6d;
+        }
+        
+        .contact input {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: .1rem solid #000;
+            outline: 0px;
+            background-color: #fbfbfb;
+            margin-top: 1rem;
+            ;
+        }
+        
+        form {
+            background-color: #fbfbfb;
+            padding: 2rem;
+        }
+        
+        form h3 {
+            color: #000;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        form span {
+            color: #dc1862;
+        }
+        
+        .contact button {
+            padding: .5rem 3rem;
+            background-color: #d61962;
+            border: 0;
+            text-transform: uppercase;
+            margin-left: 9rem;
+        }
+        
+        .contact button:hover {
+            color: #dc1862;
+            background-color: #fff;
+            border: 0;
+        }
+        
+        .rocket img {
+            height: 30rem;
+        }
+        
+        .input-group-text {
+            background-color: #dc1862;
+            border-top-right-radius: .5rem !important;
+            border-bottom-right-radius: .5rem !important;
+        }
+        
+        .path h4 {
+            font-size: .9rem;
+        }
+        
+        .account {
+            -webkit-box-shadow: 10px 10px 15px -7px rgba(0, 0, 0, 0.55);
+            -moz-box-shadow: 10px 10px 15px -7px rgba(0, 0, 0, 0.55);
+            box-shadow: 10px 10px 15px -7px rgba(0, 0, 0, 0.55);
+        }
+        
+        .account h3 {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
