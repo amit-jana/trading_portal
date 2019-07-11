@@ -7,24 +7,21 @@ $(document).ready(function() {
 
     // Partner slider
     $('#partner-slider').owlCarousel({
-            loop: true,
-            margin: 10,
-            autoplay: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 4
-                }
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 4
             }
-        }) // end of #partner-slider
-
-
-
+        }
+    }); // end of #partner-slider
 
     // Turn off Google Map zooming
     $('.map_canvas').addClass('scrolloff'); // set the pointer events to none on doc ready
@@ -73,6 +70,24 @@ $(document).ready(function() {
         }
     }); //end of Pop Up
 
+    // Dropdown Toggle
+    $(".dropdown-menu li a").click(function() {
+        var selText = $(this).text();
+        $(this).parents('.btn-group').find('.dropdown-toggle').html(selText + ' <span class="caret"></span>');
+    }); //end of Dropdown Toggle
+
+    // Read More
+    $('.nav-toggle').click(function() {
+        var collapse_content_selector = $(this).attr('href');
+        var toggle_switch = $(this);
+        $(collapse_content_selector).toggle(function() {
+            if ($(this).css('display') == 'none') {
+                toggle_switch.html('Read More');
+            } else {
+                toggle_switch.html('Read Less');
+            }
+        });
+    }); //end of Read More
 
 
 }); // end of $(document).ready(function()

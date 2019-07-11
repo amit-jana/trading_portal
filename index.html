@@ -35,7 +35,6 @@
 
 <body>
 
-    <!-- Header Area -->
     <header class="site-header-bg">
         <div class="container">
             <div class="row p-8">
@@ -69,7 +68,6 @@
     </header>
     <!-- /.header -->
 
-    <!-- Navigation Area -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -102,8 +100,8 @@
         </div>
         <!-- /.navbar-collapse -->
     </nav>
+    <!-- /. Navigation Area -->
 
-    <!-- Jumbotron Section -->
     <section class="bottom">
         <div class="container">
             <div class="row graph mt-c">
@@ -119,7 +117,6 @@
         </div>
     </section>
 
-    <!-- Form Section -->
     <section class="bottom">
         <div class="container">
             <div class="row">
@@ -201,7 +198,6 @@
         </div>
     </section>
 
-    <!-- Information Section -->
     <section class="bottom">
         <div class="container">
             <div class="row">
@@ -341,9 +337,7 @@
                     </div>
                 </div>
     </section>
-    <!-- end of information section -->
 
-    <!-- Call to action Section -->
     <section class="bottom">
         <div class="container">
             <div class="row mt-c">
@@ -361,8 +355,7 @@
             </div>
         </div>
     </section>
-    <!-- end of call to action section -->
-    <!-- Benefits Section -->
+
     <section>
         <div class="container benefit">
             <h4 class="mt-5 mb-2">BENEFITS</h4>
@@ -406,8 +399,7 @@
         </div>
         </div>
     </section>
-    <!-- end of benefit section -->
-    <!-- Footer Area -->
+
     <footer>
         <div class="container">
             <div class="row footertop">
@@ -444,6 +436,7 @@
             </div>
         </div>
     </footer>
+    <!-- /. footer -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendors/jquery/jquery-3.2.1.js"></script>
@@ -457,35 +450,7 @@
     <script src="vendors/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Custom scripts for this template -->
-
-    <script>
-        $(document).ready(function() {
-
-            $(".dropdown-menu li a").click(function() {
-                var selText = $(this).text();
-                $(this).parents('.btn-group').find('.dropdown-toggle').html(selText + ' <span class="caret"></span>');
-            });
-        });
-    </script>
-    <!-- read more toggle -->
-    <script>
-        $(document).ready(function() {
-            $('.nav-toggle').click(function() {
-                var collapse_content_selector = $(this).attr('href');
-                var toggle_switch = $(this);
-                $(collapse_content_selector).toggle(function() {
-                    if ($(this).css('display') == 'none') {
-                        toggle_switch.html('Read More');
-                    } else {
-                        toggle_switch.html('Read Less');
-                    }
-                });
-            });
-
-        });
-    </script>
     <script src="js/ree-script.js"></script>
-
 
 </body>
 
