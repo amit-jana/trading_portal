@@ -391,3 +391,27 @@
             font-weight: bold;
             font-size: 1.2rem;
         }
+        /* gl-list */
+        
+        .btn_gainer,
+        .btn_loser {
+            background-color: #c91c6d;
+            color: #fff;
+            padding: 5px 26px;
+        }
+        
+        .btn_ticket {
+            background-color: #c91c6d;
+            border: 0;
+        }
+        
+        .ticket_table {
+            background-color: #efefef;
+        }
+        
+        .btn_rply {
+            background-color: #d61962;
+            color: #fff;
+            border-radius: 8px;
+        }
+        /* end of gl-list */
