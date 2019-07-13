@@ -5,6 +5,7 @@ $(document).ready(function() {
         $(this).parents('.btn-group').find('.dropdown-toggle').html(selText + ' <span class="caret"></span>');
     });
 
+
     // Partner slider
     $('#partner-slider').owlCarousel({
         loop: true,
@@ -23,18 +24,17 @@ $(document).ready(function() {
         }
     }); // end of #partner-slider
 
-    // Turn off Google Map zooming
+
     $('.map_canvas').addClass('scrolloff'); // set the pointer events to none on doc ready
     $('#map').on('click', function() {
         $('.map_canvas').removeClass('scrolloff'); // set the pointer events true on click
-    });
-    // you want to disable pointer events when the mouse leave the canvas area;
+    }); // you want to disable pointer events when the mouse leave the canvas area;
+
     $(".map_canvas").mouseleave(function() {
         $('.map_canvas').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
     }); //end of Turn off Google Map zooming
 
 
-    // Team box height
     var h = $('.team-img-detail').height();
     var mbottom = h;
     h = h / 2;
@@ -54,7 +54,6 @@ $(document).ready(function() {
     } // end of Team box height
 
 
-    // Pop up
     $('.test-popup-link').magnificPopup({
         type: 'image',
         gallery: {
@@ -70,13 +69,13 @@ $(document).ready(function() {
         }
     }); //end of Pop Up
 
-    // Dropdown Toggle
+
     $(".dropdown-menu li a").click(function() {
         var selText = $(this).text();
         $(this).parents('.btn-group').find('.dropdown-toggle').html(selText + ' <span class="caret"></span>');
     }); //end of Dropdown Toggle
 
-    // Read More
+
     $('.nav-toggle').click(function() {
         var collapse_content_selector = $(this).attr('href');
         var toggle_switch = $(this);

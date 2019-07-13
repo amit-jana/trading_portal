@@ -14,10 +14,9 @@
 
     <!-- Custom fonts for this template -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
-    <link rel="stylesheet" href="vendors/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="vendors/font-awesome-4.7.0/css/font-awesome.min.css">
 
     <!-- Add-Ons for this template -->
-    <link rel="stylesheet" href="">
     <link rel="stylesheet" href="vendors/animate/animate.min.css">
     <link rel="stylesheet" href="vendors/magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="vendors/owlcarousel/assets/owl.carousel.min.css">
@@ -33,45 +32,54 @@
 </head>
 
 <body>
-    <!-- Header Area -->
-    <header class="site-header-bg">
+    <header class="header-wrapper">
         <div class="container">
-            <div class="row p-8">
-                <div class="col-sm-3 logo">
-                    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            <div class="row inner-wrapper">
+                <div class="col-12 col-md-2">
+                    <div class="d-flex justify-content-start logo">
+                        <a href="index.html"><img class="img img-responsive" src="img/logo.png" alt="logo"></a>
+                    </div>
                 </div>
-                <div class="col-sm-5 search">
-                    <form action="" name="" method="">
-                        <div class="d-flex">
-                            <input type="text" class="form-control" placeholder="Search">
-                            <div class="btn-group">
-                                <button class="btn dropdown-toggle" name="recordinput" data-toggle="dropdown">
+                <div class="col-12 col-md-6">
+                    <div class="search-area">
+                        <form action="" name="" method="">
+                            <div class="d-flex justify-content-center">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <div class="btn-group">
+                                    <button class="btn dropdown-toggle text-uppercase" name="recordinput" data-toggle="dropdown">
+                                                        
+                                                        Unit
+                                                    </button>
                                     <span class="caret"></span>
-                                    Unit
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">ut deserunt!</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">dolor sit</a></li>
-                                    <li><a href="#">Ad numquam</a></li>
-                                </ul>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">ut deserunt!</a></li>
+                                        <li><a href="#">Lorem ipsum</a></li>
+                                        <li><a href="#">dolor sit</a></li>
+                                        <li><a href="#">Ad numquam Ad </a></li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
-                <div class="col-sm-4 topleft">
-                    <img src="img/nifty501.png" alt="nifty" class="img img-responsive">
+                <div class="col-12 col-md-4">
+                    <div class="d-flex justify-content-end nifty-score">
+                        <span><img src="img/nifty501.png" class="img img-responsive" alt="niftyfifty"></span>
+                        <span>
+                                            <h5>11,435.75</h5>
+                                            <p>8.90<i class="fa fa-arrow-circle-up" aria-hidden="true"></i>0.08%</p>
+                                        </span>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
     <!-- /.header -->
 
-    <!-- Navigation Area -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-dark navbar-expand-lg navbar-color">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                                  <span class="navbar-toggler-icon"></span>
+                                </button>
 
         <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
             <ul class="navbar-nav">
@@ -100,6 +108,8 @@
         </div>
         <!-- /.navbar-collapse -->
     </nav>
+    <!-- /. Navigation Area -->
+
     <!--support  -->
     <section>
         <div class="container">
@@ -228,43 +238,55 @@
 
 
     </section>
-    <!-- Footer Area -->
-    <footer>
+
+    <footer class="footer-wrapper">
         <div class="container">
-            <div class="row footertop">
-                <div class="col-sm-5 mt-5 footerlogo">
-                    <img src="img/logo_gray.png" alt="logo_gray" class="img img-responsive">
-                    <h6>CALL : +917748000524</h6>
-                    <h6>@2019,REE,All right reserved</h6>
+            <div class="row subfooter-inner-wrapper">
+                <div class="col-md-4 col-sm-6">
+                    <!--Column1-->
+                    <div class="footer-pad logo">
+                        <img src="img/logo_gray.png" alt="logo_gray" class="img img-responsive">
+                        <h6>CALL : +917748000524</h6>
+                        <h6>@2019 REE | All right reserved</h6>
+                    </div>
                 </div>
-                <div class="col-sm-4 mt-5 quick">
-                    <h3 class="mb-3">QUICK LINKS</h3>
-                    <a href="" class="mb-2">Open a Trading Account</a>
-                    <a href="" class="mb-2">Download App</a>
-                    <a href="" class="mb-2">Top 10 Unit</a>
+                <div class="col-md-4 col-sm-6">
+                    <!--Column2-->
+                    <div class="footer-pad links">
+                        <h4>Quick links</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="mb-2">Open a Trading Account</a></li>
+                            <li><a href="#" class="mb-2">Download App</a></li>
+                            <li><a href="#" class="mb-2">Top 10 Unit</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-sm-3 support mt-5 mb-5">
-                    <h3 class="mb-3">SUPPORT</h3>
-                    <a href="" class="mb-2">Contact</a>
-                    <a href="" class="mb-2">Support Portal</a>
-                    <a href="" class="mb-2">Chat</a>
+                <div class="col-md-4 col-sm-6">
+                    <!--Column3-->
+                    <div class="footer-pad support">
+                        <h4>Support</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Chat</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Support Portal</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="row bottomfooter">
-                <div class="col-sm-5 mt-5">
+
+            <div class="row footer-inner-wrapper">
+                <div class="col-6 mt-4 mb-4">
                     <h6>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's
                         De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with</h6>
                 </div>
-                <div class="col-sm-2">
-
-                </div>
-                <div class="col-sm-5 mt-5 mb-5">
+                <div class="col-6 mt-4 mb-4">
                     <h6>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's
                         De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with</h6>
                 </div>
             </div>
         </div>
     </footer>
+    <!-- /. footer -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendors/jquery/jquery-3.2.1.js"></script>
@@ -278,33 +300,6 @@
     <script src="vendors/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Custom scripts for this template -->
-
-    <script>
-        $(document).ready(function() {
-
-            $(".dropdown-menu li a").click(function() {
-                var selText = $(this).text();
-                $(this).parents('.btn-group').find('.dropdown-toggle').html(selText + ' <span class="caret"></span>');
-            });
-        });
-    </script>
-    <!-- read more toggle -->
-    <script>
-        $(document).ready(function() {
-            $('.nav-toggle').click(function() {
-                var collapse_content_selector = $(this).attr('href');
-                var toggle_switch = $(this);
-                $(collapse_content_selector).toggle(function() {
-                    if ($(this).css('display') == 'none') {
-                        toggle_switch.html('Read More');
-                    } else {
-                        toggle_switch.html('Read Less');
-                    }
-                });
-            });
-
-        });
-    </script>
     <script src="js/ree-script.js"></script>
 
 
